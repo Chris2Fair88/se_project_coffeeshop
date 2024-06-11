@@ -159,9 +159,11 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding: 100px 0 120px;
 }
 
 .reservation__title {
+  margin: 0 0 80px;
   text-align: center;
   font-family: Inter;
   font-style: normal;
@@ -237,7 +239,11 @@
 }
 
 .form__button:hover {
-  opacity: 0.7;
+  opacity {
+    from: 100%;
+    to: 70%;
+  }
+  transition: background 2s linear 0s;
 }
 
 .form__checkbox {
