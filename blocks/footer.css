@@ -1,0 +1,42 @@
+.footer {
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+}
+
+.footer__content {
+  padding: 60px 80px 60px;
+}
+
+.footer__logo {
+  width: 105px;
+  height: 39px;
+}
+
+.footer__social-heading {
+  color: #eee;
+}
+
+.footer__list {
+  color: #eee;
+  list-style-type: none;
+}
+
+.footer__list-item {
+  margin-top: 20px;
+}
+
+.footer__list-item:nth-of-type(2) {
+  margin-top: 16px;
+}
+
+.footer__social-icon {
+}
+
+.footer__social-link {
+}
+
+.footer__social-link:hover {
+}
+
+.footer__copyright {
+  color: #eee;
+}
