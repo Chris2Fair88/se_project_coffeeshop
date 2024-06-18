@@ -4,6 +4,8 @@
 
 .footer__content {
   padding: 60px 80px 60px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__logo {
@@ -12,12 +14,14 @@
 }
 
 .footer__social-heading {
+  margin-top: 0;
   color: #eee;
 }
 
 .footer__list {
   color: #eee;
   list-style-type: none;
+  padding: 0;
 }
 
 .footer__list-item {
@@ -32,11 +36,15 @@
 }
 
 .footer__social-link {
+  color: #eee;
+  text-decoration: none;
 }
 
 .footer__social-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__copyright {
+  margin: 0;
   color: #eee;
 }
