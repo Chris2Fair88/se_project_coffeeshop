@@ -1,6 +1,7 @@
 .header {
   padding: 30px 80px 40px;
   position: relative;
+  box-sizing: border-box;
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
@@ -17,7 +18,7 @@
   max-width: 729px;
   font-size: 60px;
   font-weight: 500;
-  line-height: 70px;
+  line-height: 72px;
   margin: 183px 0 0;
   letter-spacing: -0.6px;
 }
@@ -32,7 +33,7 @@
 
 .header__image {
   position: absolute;
-  top: 128px;
+  top: 124px;
   right: 5px;
   margin-left: auto;
   max-width: 646px;

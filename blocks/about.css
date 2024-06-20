@@ -1,16 +1,14 @@
 @keyframes pulsate {
   0% {
     opacity: 0;
-    transform: scale(1);
   }
 
   50% {
     opacity: 0.6;
-    transform: scale(1.1);
   }
   100% {
     opacity: 0;
-    transform: scale(1);
+    transform: scale(1.1);
   }
 }
 
@@ -25,7 +23,7 @@
 
 .about__title {
   max-width: 251px;
-  margin: 100px 80px 0;
+  margin: 100px 0 0 80px;
   color: #eee;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -39,13 +37,13 @@
   list-style-type: none;
   max-width: 660px;
   color: #eee;
-  margin: 119px 80px 173px;
+  margin: 119px 80px 0 173px;
   padding: 0;
 }
 
 .about__paragraph {
   margin: 0 0 20px;
-  font-family: "Noto Serif", 'Times New Roman', serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -60,7 +58,8 @@
   position: absolute;
   width: 426px;
   height: 426px;
-  margin: -152px -129px;
+  top: -152px;
+  left: -129px;
   z-index: 0;
   background-color: #2f80ed;
   border-radius: 50%;
