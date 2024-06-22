@@ -25,6 +25,7 @@
 .nav__link {
   color: #000;
   text-decoration: none;
+  transition: color 0.5s linear;
 }
 
 .nav__link:hover {
